@@ -6,7 +6,7 @@ prompt3 db "le resultat est : ", 0
 segment .bss
 nbr resb 1
 segment .text 
-		global -asm_main
+		global _asm_main
 _asm_main:
 		enter 0,0
 		pusha
